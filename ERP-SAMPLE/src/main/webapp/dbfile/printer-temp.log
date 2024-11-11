@@ -1,0 +1,67 @@
+;;; 
+Export: Release 12.1.0.2.0 - Production on Tue Oct 29 17:31:07 2024
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+Starting "PRINTER"."SYS_EXPORT_TABLE_01":  printer/********@ORCL DIRECTORY=exp_schema reuse_dumpfiles=Y DUMPFILE=printer-temp.dmp LOGFILE=printer-temp.log TABLES=BRANCH, call_comments, client, client_request, code_offset, ENG_STOCK_DETAILS, FIELD_EXECUTIVE, general_dc, general_dc_goods, P_MODEL, part_install, part_install_rc, PART_REQ, part_req_rc, PART_STOCK, PART_STOCK_XFER, PRINTER_PART, PRINTER_PART_MIN_STOCK 
+Estimate in progress using BLOCKS method...
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 417.8 MB
+Processing object type TABLE_EXPORT/TABLE/TABLE
+Processing object type TABLE_EXPORT/TABLE/COMMENT
+Processing object type TABLE_EXPORT/TABLE/INDEX/INDEX
+Processing object type TABLE_EXPORT/TABLE/INDEX/FUNCTIONAL_INDEX/INDEX
+Processing object type TABLE_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/INDEX/STATISTICS/FUNCTIONAL_INDEX/INDEX_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/MARKER
+. . exported "PRINTER"."CLIENT_REQUEST"                  48.28 KB     437 rows
+. . exported "PRINTER"."CLIENT"                          48.22 KB     388 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR1"     146.5 KB    1420 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T1"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T10"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T11"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T12"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T13"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T14"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T15"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T16"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T2"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T3"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T4"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T5"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T6"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T7"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T8"      0 KB       0 rows
+. . exported "PRINTER"."CALL_COMMENTS":"CALL_COMMENTS_T9"      0 KB       0 rows
+. . exported "PRINTER"."GENERAL_DC"                      71.38 KB     433 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR11"    29.14 KB      73 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR12"    28.04 KB      60 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR13"    26.67 KB      45 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR2"     31.03 KB      94 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR3"     36.21 KB     152 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR4"     25.83 KB      31 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR5"     32.87 KB     117 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR6"         0 KB       0 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR7"     24.85 KB      24 rows
+. . exported "PRINTER"."PART_INSTALL"                    49.78 KB     500 rows
+. . exported "PRINTER"."GENERAL_DC_GOODS"                63.25 KB     678 rows
+. . exported "PRINTER"."ENG_STOCK_DETAILS"               67.79 KB     581 rows
+. . exported "PRINTER"."PART_REQ"                        91.09 KB     641 rows
+. . exported "PRINTER"."PART_REQ_RC"                         0 KB       0 rows
+. . exported "PRINTER"."PRINTER_PART"                    14.89 KB     133 rows
+. . exported "PRINTER"."FIELD_EXECUTIVE"                 24.80 KB     172 rows
+. . exported "PRINTER"."PART_INSTALL_RC"                     0 KB       0 rows
+. . exported "PRINTER"."PART_STOCK_XFER"                 26.66 KB     234 rows
+. . exported "PRINTER"."PRINTER_PART_MIN_STOCK"          49.19 KB    2442 rows
+. . exported "PRINTER"."P_MODEL"                         11.10 KB      80 rows
+. . exported "PRINTER"."BRANCH"                          8.054 KB      11 rows
+. . exported "PRINTER"."CODE_OFFSET"                     6.343 KB       1 rows
+. . exported "PRINTER"."PART_STOCK":"PART_STOCK_BR_DEFAULT"      0 KB       0 rows
+Master table "PRINTER"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for PRINTER.SYS_EXPORT_TABLE_01 is:
+  E:\BACKUP_JOB\DATAPUMP\PRINTER-TEMP.DMP
+Job "PRINTER"."SYS_EXPORT_TABLE_01" successfully completed at Tue Oct 29 17:31:45 2024 elapsed 0 00:00:36

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+	version="6.0"
+	metadata-complete="true">
+
+	<description>
+		Servlet and JSP Examples.
+	</description>
+	<display-name>Servlet and JSP Examples</display-name>
+
+	<request-character-encoding>UTF-8</request-character-encoding>
+
+	<!--
+	<filter><filter-name>SecurityHeadersFilter</filter-name><filter-class>SecurityHeadersFilter</filter-class></filter>
+	<filter-mapping><filter-name>SecurityHeadersFilter</filter-name><url-pattern>/*</url-pattern></filter-mapping>
+	<filter-mapping><filter-name>SecurityHeadersFilter</filter-name><url-pattern>*.jsp</url-pattern></filter-mapping>
+	<filter-mapping><filter-name>SecurityHeadersFilter</filter-name><url-pattern>*.html</url-pattern></filter-mapping>
+-->
+
+	<welcome-file-list>
+		<welcome-file>/WEB-INF/jsp/crmframe.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!--
+	<error-page><error-code>400</error-code><location>/WEB-INF/jsp/error400.jsp</location></error-page>
+	<error-page><error-code>401</error-code><location>/WEB-INF/jsp/error401.jsp</location></error-page>
+	<error-page><error-code>403</error-code><location>/WEB-INF/jsp/error403.jsp</location></error-page>
+	<error-page><error-code>404</error-code><location>/WEB-INF/jsp/error404.jsp</location></error-page>
+	<error-page><error-code>405</error-code><location>/WEB-INF/jsp/error405.jsp</location></error-page>
+	<error-page><error-code>408</error-code><location>/WEB-INF/jsp/error408.jsp</location></error-page>
+	<error-page><error-code>413</error-code><location>/WEB-INF/jsp/error413.jsp</location></error-page>
+	<error-page><error-code>500</error-code><location>/WEB-INF/jsp/error500.jsp</location></error-page>
+	<error-page><error-code>502</error-code><location>/WEB-INF/jsp/error502.jsp</location></error-page>
+	<error-page><error-code>503</error-code><location>/WEB-INF/jsp/error503.jsp</location></error-page>
+	<error-page><error-code>504</error-code><location>/WEB-INF/jsp/error504.jsp</location></error-page>
+-->
+
+	<servlet>
+		<servlet-name>crmdesk</servlet-name>
+		<jsp-file>/WEB-INF/jsp/crmframe.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>crmdesk</servlet-name>
+		<url-pattern>/crmdesk.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>title</servlet-name>
+		<jsp-file>/WEB-INF/jsp/validate/Header.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>title</servlet-name>
+		<url-pattern>/title.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>menu</servlet-name>
+		<jsp-file>/WEB-INF/jsp/validate/menu_items.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>menu</servlet-name>
+		<url-pattern>/menu.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>homepg</servlet-name>
+		<jsp-file>/WEB-INF/jsp/crmhomepg.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>homepg</servlet-name>
+		<url-pattern>/homepg.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>unauthorized</servlet-name>
+		<jsp-file>/WEB-INF/jsp/validate/UnAuthorisedUser.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>unauthorized</servlet-name>
+		<url-pattern>/unauthorized.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Error</servlet-name>
+		<jsp-file>/WEB-INF/jsp/Error.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Error</servlet-name>
+		<url-pattern>/Error.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>logout</servlet-name>
+		<jsp-file>/WEB-INF/jsp/validate/Logout.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logout</servlet-name>
+		<url-pattern>/logout.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>partstock</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartStock.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>partstock</servlet-name>
+		<url-pattern>/partstock.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>partusage</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartUsage.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>partusage</servlet-name>
+		<url-pattern>/partusage.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>partstatement</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartStatement.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>partstatement</servlet-name>
+		<url-pattern>/partstatement.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>partxferlog</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartXferLog.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>partxferlog</servlet-name>
+		<url-pattern>/partxferlog.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>partxferdetails</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartXferDetails.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>partxferdetails</servlet-name>
+		<url-pattern>/partxferdetails.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>eng_stock</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/eng_stock.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>eng_stock</servlet-name>
+		<url-pattern>/eng_stock.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AllotPartToEngg</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/AllotPartToEngg.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AllotPartToEngg</servlet-name>
+		<url-pattern>/AllotPartToEngg.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AllotPartToEngg1</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/AllotPartToEngg1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AllotPartToEngg1</servlet-name>
+		<url-pattern>/AllotPartToEngg1.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AllotPartToEngg2</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/AllotPartToEngg2.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AllotPartToEngg2</servlet-name>
+		<url-pattern>/AllotPartToEngg2.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PartToCallAllot</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartToCallAllot.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartToCallAllot</servlet-name>
+		<url-pattern>/PartToCallAllot.do</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>EmployeeDetails</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/EmployeeDetails.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmployeeDetails</servlet-name>
+		<url-pattern>/EmployeeDetails.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PartToCallAllot1</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartToCallAllot1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartToCallAllot1</servlet-name>
+		<url-pattern>/PartToCallAllot1.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PartToCallAllot2</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartToCallAllot2.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartToCallAllot2</servlet-name>
+		<url-pattern>/PartToCallAllot2.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PartToCallAllot3</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartToCallAllot3.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartToCallAllot3</servlet-name>
+		<url-pattern>/PartToCallAllot3.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PartAddStock</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartAddStock.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartAddStock</servlet-name>
+		<url-pattern>/PartAddStock.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PartLessStock</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartLessStock.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartLessStock</servlet-name>
+		<url-pattern>/PartLessStock.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PartConfirmStock</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartConfirmStock.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartConfirmStock</servlet-name>
+		<url-pattern>/PartConfirmStock.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PartFaultyReturn</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartFaultyReturn.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartFaultyReturn</servlet-name>
+		<url-pattern>/PartFaultyReturn.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>PartReturnDC</servlet-name>
+		<jsp-file>/WEB-INF/jsp/procurement/PartReturnDC.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartReturnDC</servlet-name>
+		<url-pattern>/PartReturnDC.do</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>PartStock</servlet-name>
+		<servlet-class>PartStock</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartStock</servlet-name>
+		<url-pattern>/PartStock</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PartUsage</servlet-name>
+		<servlet-class>PartUsage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartUsage</servlet-name>
+		<url-pattern>/PartUsage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PartStatement</servlet-name>
+		<servlet-class>PartStatement</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartStatement</servlet-name>
+		<url-pattern>/PartStatement</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>

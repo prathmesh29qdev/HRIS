@@ -1,0 +1,80 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial;
+}
+
+/* Style tab links */
+.tabgroup {
+	background-color: #838383;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	font-size: 17px;
+	width: 100%
+}
+
+.tablink {
+	background-color: #838383;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 14px;
+	font-size: 18px;
+	text-transform: capitalize;
+	text-decoration: underline;
+	width: 18%
+}
+
+.tablink1 {
+	background-color: #838383;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 14px;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: underline;
+	width: 18%;
+}
+
+.tablink:hover {
+	background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+	color: gray;
+	display: none;
+	padding: 60px 20px;
+	height: 100%;
+}
+
+/*
+#Client {background-color: red;}
+#Sales {background-color: green;}
+#Printer {background-color: blue;}
+#PO {background-color: orange;}
+*/
+#Client {
+	background-color: white;
+}
+
+#Sales {
+	background-color: white;
+}
+
+#Printer {
+	background-color: white;
+}
+
+#PO {
+	background-color: white;
+}

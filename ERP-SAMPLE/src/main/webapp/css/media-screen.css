@@ -1,0 +1,663 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width: 1700px) {
+	.prise {
+		width: 75%;
+	}
+}
+
+@media (max-width: 1450px) {
+
+	.in-put-drop-left {
+		width: 79%;
+	}
+
+	select.detailsfield {
+		width: 92%;
+	}
+
+	.prise {
+		width: 72%;
+	}
+
+}
+
+@media (max-width: 1380px) {}
+
+@media (max-width: 1200px) {
+
+	.company-logo {
+		width: 40%;
+	}
+
+	.tel-num {
+		width: auto;
+	}
+
+	.red-pannel {
+		padding: 8px 15px;
+		width: auto;
+	}
+
+	.in-put-drop-left {
+		height: auto;
+		width: 70%;
+	}
+
+	input.calender {
+		margin: 0 10px 10px 0;
+	}
+
+	.pin {
+		margin: 0 10px 10px 0;
+	}
+
+	select {
+		margin: 0 10px 10px 0;
+	}
+
+	input {
+		margin: 0 8px 0 0;
+		float: left;
+	}
+
+}
+
+@media (max-width: 1163px) {
+	input.calender {
+		margin-bottom: 8px;
+	}
+
+	input.calender-one {
+		margin-bottom: 8px;
+	}
+
+	.icon-right {
+		margin-top: 16px;
+	}
+
+	.top-cont {
+		width: 72%;
+	}
+
+	.top-cont input.cal1 {
+		margin-bottom: 10px;
+	}
+
+	.locan {
+		margin-bottom: 10px;
+	}
+
+	.prise {
+		width: 70%;
+	}
+
+}
+
+@media (max-width: 1100px) {
+	.containerdiv {
+		width: 99%;
+	}
+
+	.details-t {
+		padding: 20px 10px;
+	}
+
+	.multipaldetails td {
+		padding-left: 10px;
+	}
+
+	.table3 {
+		padding: 10px;
+	}
+
+	.comment-area {
+		padding: 10px;
+	}
+
+	select.detailsfield {
+		width: 93%;
+	}
+
+	.prise {
+		width: 68%;
+	}
+
+}
+
+@media (max-width: 1024px) {
+
+	.company-logo {
+		width: 38%;
+	}
+
+	.tel-num {
+		float: right;
+	}
+
+}
+
+@media (max-width: 1000px) {
+	.containerdiv {
+		width: 96%;
+	}
+
+	.multipaldetails {
+		padding: 0 0 20px 0;
+	}
+
+	.multipaldetails .col6 .detailsfield {
+		width: 98%;
+	}
+
+	.details-t {
+		padding: 20px 0;
+	}
+
+	.multipaldetails td {
+		padding-left: 0;
+		padding-bottom: 0;
+		display: block;
+		width: 100%;
+		clear: both;
+	}
+
+	.multipaldetails th {
+		width: 100%;
+		display: none;
+	}
+
+	.table3 {
+		padding: 20px;
+	}
+
+	.comment-area {
+		padding: 20px;
+	}
+
+	.top-cont input.cal1 {
+		margin-bottom: 10px;
+	}
+
+	.locan {
+		margin-bottom: 10px;
+	}
+
+	.prise {
+		width: 80%;
+	}
+
+	.table4 {
+		width: 100%;
+	}
+
+	.diagram {
+		width: 100%;
+	}
+
+	table.multipaldetails,
+	table.multipaldetails tbody tr td {
+		display: block;
+		float: left;
+		clear: both;
+		width: 100%;
+	}
+
+	table.multipaldetails tbody,
+	table.multipaldetails tbody tr {
+		width: 100%;
+		display: block;
+	}
+
+	.cold1 {
+		width: 28%;
+	}
+
+	.cold2 {
+		width: 28%;
+	}
+
+	.cold3 {
+		width: 28%;
+	}
+
+	.lasttd {
+		width: 15%;
+	}
+
+	.table3 {
+		margin-top: 10px;
+	}
+
+	.colt1 {
+		width: 40%;
+	}
+
+	.colt2 {
+		width: 40%;
+	}
+
+}
+
+@media (max-width: 900px) {
+	.table-container {
+		overflow-x: auto;
+	}
+
+	.table-container table {
+		width: 1000px !important;
+	}
+
+	.lasttd {
+		display: none;
+	}
+
+	.details-t td {
+		width: 33.333333333333333%;
+	}
+
+	select.detailsfield {
+		width: 94%;
+	}
+
+	.last3 {
+		display: none;
+	}
+
+	.table3 td {
+		width: 50%;
+	}
+
+	.top-cont input.cal1 {
+		width: 40%;
+	}
+
+	.locan {
+		width: 43%
+	}
+
+	.icon-right {
+		margin-top: 40px;
+	}
+
+	.col1 {
+		width: 100%;
+		display: block;
+		*display: block;
+	}
+
+	.col2 {
+		width: 100%;
+		display: block;
+		*display: block;
+	}
+
+	.col3 {
+		width: 100%;
+		display: block;
+		*display: block;
+	}
+
+	.col4 {
+		width: 100%;
+		display: block;
+		*display: block;
+	}
+
+	.col5 {
+		width: 100%;
+		display: block;
+		*display: block;
+	}
+
+	.col6 {
+		width: 100%;
+		display: block;
+		*display: block;
+	}
+
+	.col7 {
+		width: 100%;
+		display: block;
+		*display: block;
+	}
+
+	#example_d3 {
+		overflow: auto !important;
+		width: 100%;
+	}
+
+	#example_d3 .dwrapper {
+		width: 1500px !important;
+	}
+
+	div.ft_rwrapper,
+	.ft_cwrapper {
+		width: 1500px !important;
+	}
+
+}
+
+@media (max-width: 800px) {
+	.company-logo {
+		width: 33%;
+	}
+
+	.in-put-drop-left {
+		width: 68%;
+	}
+
+	.icon-right {
+		margin-top: 35px;
+	}
+
+	.multipaldetails .col6 .detailsfield {
+		width: 97%;
+	}
+
+	.prise {
+		width: 75%;
+	}
+
+	.top-cont {
+		width: 50%
+	}
+
+	.top-cont input.cal1 {
+		width: 93%;
+	}
+
+	.locan {
+		width: 98%
+	}
+
+	.icon-right {
+		margin-top: 80px;
+	}
+
+	.details-t li {
+		margin-bottom: 10px;
+	}
+
+	.cold1 {
+		width: 100%;
+	}
+
+	.cold2 {
+		width: 100%;
+	}
+
+	.cold3 {
+		width: 100%;
+	}
+
+	.lasttd {
+		display: none;
+	}
+
+	select.detailsfield {
+		width: 100%;
+	}
+
+	.input-w {
+		width: 97.3%;
+	}
+
+
+	.colt1 {
+		width: 100%;
+	}
+
+	.colt2 {
+		width: 100%;
+	}
+
+	.table3 .input-w {
+		width: 97%;
+	}
+
+}
+
+@media (max-width: 690px) {
+	.top-nav-pannel {
+		padding: 0 15px;
+		width: auto;
+	}
+
+	.menu-icon {
+		margin-left: 0;
+		margin-right: 0;
+		width: 50px;
+	}
+
+	.tel-num {
+		display: none;
+	}
+
+	.company-logo {
+		width: 48%;
+	}
+
+	.in-put-drop-left {
+		width: 50%;
+	}
+
+	input.calender {
+		width: 96.8%;
+		margin-right: 0;
+	}
+
+	input.calender-one {
+		width: 99%;
+		margin-right: 0;
+	}
+
+	.pin {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	select {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	select.detailsfield {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.input-w {
+		width: 97%;
+		margin-bottom: 10px;
+	}
+
+	.table3 .input-w {
+		width: 87%;
+	}
+
+	table.details-t tbody,
+	table.details-t tbody tr,
+	table.details-t td {
+		width: 100%;
+		display: block;
+	}
+
+	.prise {
+		width: 70%;
+	}
+
+	.input-w {
+		width: 97%;
+	}
+
+	.table3 .input-w {
+		width: 97%;
+	}
+
+}
+
+@media (max-width: 590px) {
+	.company-logo {
+		width: 40%;
+	}
+
+	.mohan-name {
+		font-size: 12px;
+	}
+
+	.multipaldetails .col6 .detailsfield {
+		width: 96%;
+	}
+
+	.locan {
+		width: 99%;
+		margin-right: 2%;
+	}
+
+	.prise {
+		width: 68%;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.input-w {
+		width: 96.3%;
+	}
+
+}
+
+@media (max-width: 490px) {
+	.log-out-text {
+		display: none;
+	}
+
+	.call-icon {
+		width: auto;
+		float: right;
+	}
+
+	.company-logo {
+		width: 52%;
+		margin-top: 13px;
+	}
+
+	.company-logo img {
+		width: 120px;
+		height: auto;
+	}
+
+	input.calender {
+		width: 97.8%;
+		margin-right: 0;
+	}
+
+	.multipaldetails .col6 .detailsfield {
+		width: 95%;
+	}
+
+	.in-put-drop-left {
+		width: 100%;
+	}
+
+	.icon-right {
+		margin: 18px 0 0;
+		float: left;
+		display: block;
+		clear: both;
+	}
+
+	.table3 td {
+		display: block;
+		width: 100%;
+		clear: both;
+	}
+
+	.table3 .input-w {
+		width: 96%;
+	}
+
+	.buttonarea {
+		width: 320px;
+	}
+
+	.reset {
+		margin-left: 10px;
+	}
+
+	.top-cont {
+		width: 100%;
+	}
+
+	.top-cont input.cal1 {
+		width: 95%;
+		margin-right: 0;
+	}
+
+	.locan {
+		width: 99%;
+		margin-right: 0;
+	}
+
+	h2 {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	.buttonarea {
+		width: 300px;
+	}
+
+	.bttn {
+		margin-left: 0;
+	}
+
+	.reset {
+		margin-right: 0;
+	}
+
+	.input-w {
+		width: 96.1%;
+	}
+
+}
+
+@media (max-width: 400px) {
+	.locan {
+		width: 100%;
+	}
+
+	.top-cont input.cal1 {
+		width: 94%;
+	}
+
+	.diagram-clr {
+		width: 266px;
+	}
+
+	.input-w {
+		width: 95%;
+	}
+
+}
+
+@media (max-width: 350px) {
+	.input-w {
+		width: 93%;
+	}
+
+	.multipaldetails .col6 .detailsfield {
+		width: 93%;
+	}
+
+	.comment-area {
+		padding: 10px;
+	}
+
+	.input-w {
+		width: 94.3%;
+	}
+
+}

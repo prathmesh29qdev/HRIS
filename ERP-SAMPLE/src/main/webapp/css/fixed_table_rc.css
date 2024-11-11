@@ -1,0 +1,126 @@
+#example_d3 .dwrapper {
+	width: 100%;
+}
+
+#example_d3 {
+	padding: 0 2%;
+}
+
+.ft_container table {
+	border-width: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+	margin: 0;
+	outline-style: none;
+	width: 100% !important;
+}
+
+.ft_container table tr th {
+	background: #b5b5b5;
+	color: #343434;
+	padding: 10px 22px 10px 22px !important;
+}
+
+.ft_container table thead {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.ft_container table tr th,
+.ft_container table tr td {
+	border-collapse: collapse;
+	padding: 0px 0px 0 20px;
+	word-wrap: break-word;
+	border: 1px solid #CCCCCC;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	overflow: hidden;
+	word-wrap: break-word;
+	text-align: left !important;
+}
+
+.ft_container table tr:first-child td,
+.ft_container table tr:first-child th {
+	border-top-width: 1px;
+	border-color: #CCCCCC;
+}
+
+.ft_container table tr td:first-child,
+.ft_container table tr th:first-child {
+	border-left-width: 1px;
+	border-color: #CCCCCC;
+}
+
+.ft_container {
+	overflow: hidden;
+	padding: 0px;
+	height: 400px !important;
+}
+
+.ft_rel_container {
+	position: relative;
+	overflow: hidden;
+	border-width: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.ft_r,
+.ft_rc {
+	background-image: none;
+}
+
+.ft_rc {
+	position: absolute;
+	z-index: 1005;
+}
+
+.ft_r,
+.ft_c {
+	position: relative;
+}
+
+.ft_rwrapper,
+.ft_cwrapper {
+	overflow: hidden;
+	position: absolute;
+	z-index: 1001;
+	border-width: 0px;
+	padding: 0px;
+	margin: 0px;
+	width: 98.8% !important;
+}
+
+/*================= Scroller ====================*/
+.ft_scroller {
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.ft_container tbody tr.ui-widget-content,
+thead.ui-widget-header {
+	background-image: none;
+}
+
+.ft_container table.sorttable thead tr th {
+	cursor: pointer;
+}
+
+.ft_container table thead tr th.fx_sort_bg {
+	background-image: url(images/bg.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.ft_container table thead tr th.fx_sort_asc {
+	background-image: url(images/asc.gif);
+}
+
+.ft_container table thead tr th.fx_sort_desc {
+	background-image: url(images/desc.gif);
+}
